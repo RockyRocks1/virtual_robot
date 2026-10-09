@@ -11,7 +11,7 @@ import virtual_robot.robots.classes.MecanumBot;
 /**
  * Class for configuring field (width and image), and gamepad (virtual vs. real)
  */
-public class Config {
+public class  Config {
     /**
      * FRACTION OF TOTAL FIELD TO CONSTRAIN ROBOT MOTION
      */

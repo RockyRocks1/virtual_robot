@@ -7,4 +7,8 @@ public class MathUtils {
 
         return new double[]{x * cosA - y * sinA, x * sinA + y * cosA};
     }
+    public static double getAngleDelta(double currentAngle, double targetAngle) {
+        double delta = targetAngle - currentAngle;
+        return Math.atan2(Math.sin(delta), Math.cos(delta));
+    }
 }
